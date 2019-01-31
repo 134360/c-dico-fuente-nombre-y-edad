@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<cs50.h>
+
+int main(void){
+    string name = get_string("¿Cual es tu nombre?: ");
+    printf("Hola  %s \n", name);
+int edad;
+int x = get_int("Introduce el año actual:\n ");
+int y =get_int("Introduce el año en que naciste:\n ");
+printf("%i menos %i tienes %i años", x, y, x - y);
+}
